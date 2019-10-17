@@ -49,3 +49,21 @@ git branch alien-plot
 # list all your branches
 git branch
 
+
+git remote add origin https://github.com/hadohado/Story.git
+
+# this one does not work since I changed git pw
+	git push -u origin master
+
+# so need to fo a git -f push ...  then git push ...
+# where -f mean force
+# it will make git ask for name & pw the next time you do "git push ..."
+git -f push -u origin master
+
+# git ask for name & pw (since we just did a "git -f push ..."
+git push -u origin master
+	Username for 'https://github.com': hadohado
+	Password for 'https://hadohado@github.com': 
+
+
+
