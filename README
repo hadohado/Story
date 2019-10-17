@@ -43,4 +43,9 @@ git log
 	#	
 	#	    Initial commit   complete chapter 1
 
+# create another branch (side or debug branch ...)
+git branch alien-plot
+
+# list all your branches
+git branch
 
