@@ -67,3 +67,12 @@ git push -u origin master
 
 
 
+#-----------------
+# to merge alien-plot onto master branch
+#-----------------
+git checkout master
+git merge alien-plot
+	Merge made by the 'recursive' strategy.
+	/bin/bash: /: is a directory
+	 1 file changed, 2 insertions(+), 1 deletion(-)
+
